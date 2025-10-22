@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -159,3 +160,5 @@ export const socialMedia = [
     link: "https://linkedin.com/in/parth-chhabra-32b847225/",
   },
 ];
+
+export const testimonials = [];
