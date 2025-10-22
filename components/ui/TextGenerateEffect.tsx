@@ -37,7 +37,7 @@ export const TextGenerateEffect = ({
               className={` ${idx > 3 ? "text-purple" : "dark:text-white text-black"
                 } opacity-0`}
             >
-              {word}{" "}
+              {word}{" "}git rm -r --cached .next
             </motion.span>
           );
         })}
