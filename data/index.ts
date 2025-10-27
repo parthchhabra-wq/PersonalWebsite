@@ -78,6 +78,9 @@ export const projects = [
   },
 ];
 
+export const testimonials = [
+]
+
 export const companies = [
   {
     id: 1,
