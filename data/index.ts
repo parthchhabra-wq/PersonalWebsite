@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,7 +73,7 @@ export const projects = [
     title: "Photo/Video Montage Creator",
     des: "A creative tool for building photo and video montages.",
     img: "/photo-video_montage.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/Html.png", "/Css.png", "/Js.png"],
     link: "https://parthchhabra-wq.github.io/",
   },
 ];
@@ -160,5 +159,3 @@ export const socialMedia = [
     link: "https://linkedin.com/in/parth-chhabra-32b847225/",
   },
 ];
-
-export const testimonials = [];

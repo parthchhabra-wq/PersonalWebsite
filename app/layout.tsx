@@ -6,14 +6,9 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = { 
+export const metadata: Metadata = {
   title: "Parth's Portfolio",
   description: "Parth Chhabra",
-  icons:{
-    icon: "/parth_logo.png",
-    shortcut: "/parth_logo.png",
-    apple: "/parth_logo.png",
-  }
 };
 
 export default function RootLayout({
@@ -23,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {/* <head>
-        <link rel="icon" href="/parth_logo.png" type = 'image/png' sizes="any" />
-      </head> */}
+      <head>
+        <link rel="icon" href="/parth_logo.jpg" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
